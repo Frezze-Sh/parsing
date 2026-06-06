@@ -55,6 +55,6 @@ browser = webdriver.Chrome(service=service)
 
 # Использование
 browser.get("https://hh.ru/?customDomain=1")
-print("✅ Работает!")
+print("Работает!")
 time.sleep(10)
 # browser.quit()
